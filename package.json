@@ -1,0 +1,26 @@
+{
+  "name": "eFisheryTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:efishery": "npm run test -- --spec cypress/e2e/eFisheryTest/**/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadlyady/eFisheryTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fadlyady/eFisheryTest/issues"
+  },
+  "homepage": "https://github.com/fadlyady/eFisheryTest#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^10.6.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
