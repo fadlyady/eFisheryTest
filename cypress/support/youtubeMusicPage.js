@@ -1,16 +1,4 @@
 class ytMusicPage{
-    getBtnSignIn(){
-        return cy.get('.sign-in-link');
-    }
-    getFieldUsername(){
-        return cy.get("#identifierId");
-    }
-    getFieldPassword(){
-        return cy.get("[name='password']");
-    }
-    getBtnNext(){
-        return cy.xpath("//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']/div[@class='VfPpkd-RLmnJb']");
-    }
 
     // Search
     getMenuSearch(){
@@ -31,7 +19,6 @@ class ytMusicPage{
     
     // Dashboard
     getPlayQuickPick1(){
-        // return cy.xpath("//ytmusic-responsive-list-item-renderer[1]//ytmusic-play-button-renderer[@id='play-button']");
         return cy.xpath("(//ytmusic-responsive-list-item-renderer[1]//ytmusic-play-button-renderer[@id='play-button'])[1]");
     }
 
